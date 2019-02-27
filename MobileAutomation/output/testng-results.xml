@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MyDefault Test Suite" duration-ms="167349" started-at="2019-02-27T10:46:14Z" finished-at="2019-02-27T10:49:01Z">
+    <groups>
+    </groups>
+    <test name="Command line test 4235804e-9a7a-437a-84b2-9d1027fa8d0b" duration-ms="167349" started-at="2019-02-27T10:46:14Z" finished-at="2019-02-27T10:49:01Z">
+      <class name="com.ebay.test.FarmRise_Test">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ebay.test.FarmRise_Test@37ee6636]" name="setUp" is-config="true" duration-ms="216" started-at="2019-02-27T16:16:13Z" finished-at="2019-02-27T16:16:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkGovtSchemes(com.loylty.businessobject.TestCase)[pri:0, instance:com.ebay.test.FarmRise_Test@37ee6636]" name="checkGovtSchemes" duration-ms="67506" started-at="2019-02-27T16:16:14Z" data-provider="testObjDP" finished-at="2019-02-27T16:17:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestCase [testMethodName=checkGovtSchemes, description=null, moduleName=null, execution=false, username=null, password=null, browser=null, version=null, testData={Mobileno=733801223, Emailid=amit.dash@gmaul.com}, nodeAddress=null, browserVersionID=null, isSanityTC=false, ResultOfTC=false, exceptionMessage=null]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkGovtSchemes -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ebay.test.FarmRise_Test@37ee6636]" name="teardown" is-config="true" duration-ms="4093" started-at="2019-02-27T16:17:21Z" finished-at="2019-02-27T16:17:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.ebay.test.FarmRise_Test@37ee6636]" name="getResult" is-config="true" duration-ms="465" started-at="2019-02-27T16:17:25Z" finished-at="2019-02-27T16:17:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkGovtSchemes status=SUCCESS method=FarmRise_Test.checkGovtSchemes(com.loylty.businessobject.TestCase)[pri:0, instance:com.ebay.test.FarmRise_Test@37ee6636] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="checkWeatherTime(com.loylty.businessobject.TestCase)[pri:0, instance:com.ebay.test.FarmRise_Test@37ee6636]" name="checkWeatherTime" duration-ms="91253" started-at="2019-02-27T16:17:26Z" data-provider="testObjDP" finished-at="2019-02-27T16:18:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestCase [testMethodName=checkWeatherTime, description=null, moduleName=null, execution=false, username=null, password=null, browser=null, version=null, testData={Expectedresult='', Username=Retest, Password=Password@123}, nodeAddress=null, browserVersionID=null, isSanityTC=false, ResultOfTC=false, exceptionMessage=null]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkWeatherTime -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.ebay.test.FarmRise_Test@37ee6636]" name="teardown" is-config="true" duration-ms="3966" started-at="2019-02-27T16:18:57Z" finished-at="2019-02-27T16:19:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.ebay.test.FarmRise_Test@37ee6636]" name="getResult" is-config="true" duration-ms="64" started-at="2019-02-27T16:19:01Z" finished-at="2019-02-27T16:19:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkWeatherTime status=SUCCESS method=FarmRise_Test.checkWeatherTime(com.loylty.businessobject.TestCase)[pri:0, instance:com.ebay.test.FarmRise_Test@37ee6636] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.ebay.test.FarmRise_Test -->
+    </test> <!-- Command line test 4235804e-9a7a-437a-84b2-9d1027fa8d0b -->
+  </suite> <!-- MyDefault Test Suite -->
+</testng-results>

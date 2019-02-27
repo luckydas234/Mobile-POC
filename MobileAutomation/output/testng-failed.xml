@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MyDefault Test Suite]">
+  <test name="Command line test 4235804e-9a7a-437a-84b2-9d1027fa8d0b">
+    <classes>
+      <class name="com.ebay.test.FarmRise_Test">
+        <methods>
+          <include name="checkGovtSchemes"/>
+          <include name="checkWeatherTime"/>
+        </methods>
+      </class> <!-- com.ebay.test.FarmRise_Test -->
+    </classes>
+  </test> <!-- Command line test 4235804e-9a7a-437a-84b2-9d1027fa8d0b -->
+</suite> <!-- Failed suite [MyDefault Test Suite] -->

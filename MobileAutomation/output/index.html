@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-MyDefault_Test_Suite">
+              <span class="suite-name border-passed">MyDefault Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-MyDefault_Test_Suite">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-MyDefault_Test_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-MyDefault_Test_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-MyDefault_Test_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-MyDefault_Test_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-MyDefault_Test_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-MyDefault_Test_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">2 methods,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-MyDefault_Test_Suite" class="hide-methods passed suite-MyDefault_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-MyDefault_Test_Suite -->
+                      <a href="#" panel-name="suite-MyDefault_Test_Suite" class="show-methods passed suite-MyDefault_Test_Suite"> (show)</a> <!-- show-methods passed suite-MyDefault_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-MyDefault_Test_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MyDefault_Test_Suite" title="com.ebay.test.FarmRise_Test" hash-for-method="checkGovtSchemes(TestCase [testMethodName=checkGovtSchemes, description=null, moduleName=null, execution=false, usern...)">checkGovtSchemes(TestCase [testMethodName=checkGovtSchemes, description=null, moduleName=null, execution=false, usern...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MyDefault_Test_Suite" title="com.ebay.test.FarmRise_Test" hash-for-method="checkWeatherTime(TestCase [testMethodName=checkWeatherTime, description=null, moduleName=null, execution=false, usern...)">checkWeatherTime(TestCase [testMethodName=checkWeatherTime, description=null, moduleName=null, execution=false, usern...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-MyDefault_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-MyDefault_Test_Suite" class="panel MyDefault_Test_Suite">
+          <div class="suite-MyDefault_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ebay.test.FarmRise_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkGovtSchemes(TestCase [testMethodName=checkGovtSchemes, description=null, moduleName=null, execution=false, usern...)">
+                  </a> <!-- checkGovtSchemes(TestCase [testMethodName=checkGovtSchemes, description=null, moduleName=null, execution=false, usern...) -->
+                  <span class="method-name">checkGovtSchemes</span>
+                  <span class="parameters">(TestCase [testMethodName=checkGovtSchemes, description=null, moduleName=null, execution=false, username=null, password=null, browser=null, version=null, testData={Mobileno=733801223, Emailid=amit.dash@gmaul.com}, nodeAddress=null, browserVersionID=null, isSanityTC=false, ResultOfTC=false, exceptionMessage=null])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkWeatherTime(TestCase [testMethodName=checkWeatherTime, description=null, moduleName=null, execution=false, usern...)">
+                  </a> <!-- checkWeatherTime(TestCase [testMethodName=checkWeatherTime, description=null, moduleName=null, execution=false, usern...) -->
+                  <span class="method-name">checkWeatherTime</span>
+                  <span class="parameters">(TestCase [testMethodName=checkWeatherTime, description=null, moduleName=null, execution=false, username=null, password=null, browser=null, version=null, testData={Expectedresult='', Username=Retest, Password=Password@123}, nodeAddress=null, browserVersionID=null, isSanityTC=false, ResultOfTC=false, exceptionMessage=null])</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MyDefault_Test_Suite-class-passed -->
+        </div> <!-- panel MyDefault_Test_Suite -->
+        <div panel-name="test-xml-MyDefault_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;MyDefault Test Suite&quot;&gt;
+  &lt;test name=&quot;Command line test 4235804e-9a7a-437a-84b2-9d1027fa8d0b&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.ebay.test.FarmRise_Test&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;checkGovtSchemes&quot;/&gt;
+          &lt;include name=&quot;checkWeatherTime&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.ebay.test.FarmRise_Test --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test 4235804e-9a7a-437a-84b2-9d1027fa8d0b --&gt;
+&lt;/suite&gt; &lt;!-- MyDefault Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-MyDefault_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for MyDefault Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test 4235804e-9a7a-437a-84b2-9d1027fa8d0b (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-MyDefault_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for MyDefault Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-MyDefault_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for MyDefault Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_MyDefault_Test_Suite');
+function tableData_MyDefault_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(2);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'checkWeatherTime')
+data.setCell(0, 2, 'com.ebay.test.FarmRise_Test')
+data.setCell(0, 3, 91253);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'checkGovtSchemes')
+data.setCell(1, 2, 'com.ebay.test.FarmRise_Test')
+data.setCell(1, 3, 67506);
+window.suiteTableData['MyDefault_Test_Suite']= { tableData: data, tableDiv: 'times-div-MyDefault_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-MyDefault_Test_Suite">
+              </div> <!-- times-div-MyDefault_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-MyDefault_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for MyDefault Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-MyDefault_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-MyDefault_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ebay.test.FarmRise_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">checkGovtSchemes(TestCase [testMethodName=checkGovtSchemes, description=null, moduleName=null, execution=false, usern...)</span>
+                <span class="method-start">218 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">67724 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=checkGovtSchemes status=SUCCESS method=FarmRise_Test.checkGovtSchemes(com.loylty.bu...)</span>
+                <span class="method-start">71817 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkWeatherTime(TestCase [testMethodName=checkWeatherTime, description=null, moduleName=null, execution=false, usern...)</span>
+                <span class="method-start">72282 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">163535 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=checkWeatherTime status=SUCCESS method=FarmRise_Test.checkWeatherTime(com.loylty.bu...)</span>
+                <span class="method-start">167501 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
